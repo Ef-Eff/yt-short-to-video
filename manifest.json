@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Short To Video",
+  "description": "Adds a button to redirect to the video version of a youtube short",
+  "version": "0.1",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/icon-16.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/video.js"],
+      "matches": [
+        "https://www.youtube.com/shorts/*"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "images/icon-16.png"
+  }
+}
