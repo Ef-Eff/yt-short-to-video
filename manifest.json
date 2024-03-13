@@ -11,7 +11,7 @@
     {
       "js": ["scripts/video.js"],
       "matches": [
-        "https://www.youtube.com/shorts/*"
+        "https://www.youtube.com/*"
       ]
     }
   ],
